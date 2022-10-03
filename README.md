@@ -2,9 +2,18 @@
 
 This is a course assignment for portfolio 2.
 
+## Description
+
+This project is a personal portfolio app to display some of the projects i have done.
+Also links to the github repos of my latest big projects.
+
 ## Built with
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting started
+
+Installing
 
 ## Running
 
