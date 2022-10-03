@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installing
 
-1.Clone repo: https://github.com/sebbe1236/portfoliosite-two-sebbe.git
+1. Clone repo: https://github.com/sebbe1236/portfoliosite-two-sebbe.git
 
 2. run npm install
 
