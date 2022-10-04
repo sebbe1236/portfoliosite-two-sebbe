@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif !important;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import "partials/footer";
+@import "partials/home";
+@import "partials/header";

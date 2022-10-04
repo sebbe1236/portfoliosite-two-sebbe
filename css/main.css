@@ -1,1 +1,32 @@
-/*# sourceMappingURL=main.css.map */
+body,
+html {
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif !important;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin-top: auto;
+  padding: 30px;
+  background-color: red;
+}
+
+nav {
+  background-color: #28a745 !important;
+}/*# sourceMappingURL=main.css.map */
