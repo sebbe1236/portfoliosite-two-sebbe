@@ -27,6 +27,10 @@ footer {
   background-color: red;
 }
 
+.cards_container img {
+  height: 200px;
+}
+
 nav {
   background-color: #28a745 !important;
 }/*# sourceMappingURL=main.css.map */

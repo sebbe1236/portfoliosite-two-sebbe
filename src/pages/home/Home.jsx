@@ -1,7 +1,14 @@
 import React from "react";
+import Heading from "../../components/layout/Heading";
+import Cards from "./Cards";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Heading>Portfolio</Heading>
+      <Cards />
+    </>
+  );
 }
 
 export default Home;
