@@ -10,38 +10,42 @@ function Cards() {
   return (
     <>
       <Container fluid>
-        <h3>Some of my projects</h3>
-        <CardGroup className="cards_container p-3 m-3">
-          <Card>
-            <Card.Img variant="top" src={examsiteImage} />
-            <Card.Body>
-              <Card.Title>Exam 2</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card>
-            <Card.Img variant="top" src={semesterprojectImage} />
-            <Card.Body>
-              <Card.Title>Semester project 2</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card>
-            <Card.Img variant="top" src={jsCaImage} />
-            <Card.Body>
-              <Card.Title>JS frameworks CA</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </CardGroup>
+        <h3 className="text-center">Some of my projects</h3>
+        <Row xs={1} md={3} lg={3} className="cards_container">
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={examsiteImage} />
+              <Card.Body>
+                <Card.Title>Exam 2</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={semesterprojectImage} />
+              <Card.Body>
+                <Card.Title>Semester project 2</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={jsCaImage} />
+              <Card.Body>
+                <Card.Title>JS frameworks CA</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
     </>
   );

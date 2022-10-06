@@ -31,6 +31,35 @@ footer {
   height: 200px;
 }
 
+.carousel-inner img {
+  margin: auto;
+  height: 500px;
+}
+
+.carousel-item {
+  display: block !important;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+.carousel-inner p,
+h3,
+button {
+  color: white !important;
+}
+
+@media (max-width: 830px) {
+  .carousel-inner img {
+    width: 100% !important;
+  }
+  #root > div.carousel.slide.carousel-fade > a.carousel-control-next > span.carousel-control-next-icon {
+    color: white !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    color: white !important;
+  }
+}
 nav {
   background-color: #28a745 !important;
 }/*# sourceMappingURL=main.css.map */
