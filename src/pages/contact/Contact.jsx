@@ -77,7 +77,7 @@ function Contact() {
         </div>
         <div>
           <Button type="submit" variant="success">
-            {submit ? "Sending" : "Send"}
+            {submit ? "Sent" : "Send"}
           </Button>
         </div>
       </form>
