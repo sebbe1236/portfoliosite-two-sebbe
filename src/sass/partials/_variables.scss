@@ -1,5 +1,5 @@
 @use "sass:map";
-
+//colors
 $theme-colors: (
   "header": #28a745,
   "footer": #17a2b8,
@@ -7,4 +7,10 @@ $theme-colors: (
   "read-button": #28a745,
 );
 
-$header: #28a745;
+$header: #1c1c1c;
+$header-links: #ffffff;
+$footer-color: #312f2f;
+//typography
+$font-weight-nav: bold;
+
+//mixins

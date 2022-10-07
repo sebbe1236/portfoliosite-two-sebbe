@@ -1,5 +1,7 @@
+@import "variables";
+
 footer {
   margin-top: auto;
   padding: 30px;
-  background-color: red;
+  background-color: $footer-color;
 }

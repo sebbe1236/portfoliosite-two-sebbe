@@ -2,4 +2,18 @@
 
 nav {
   background-color: $header !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: $font-weight-nav;
+}
+
+nav button {
+  background-color: white !important;
+}
+
+.nav-link {
+  color: $header-links !important;
+}
+
+nav a {
+  color: $header-links !important;
 }

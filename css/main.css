@@ -24,7 +24,7 @@ body {
 footer {
   margin-top: auto;
   padding: 30px;
-  background-color: red;
+  background-color: #312f2f;
 }
 
 .cards_container img {
@@ -61,5 +61,19 @@ button {
   }
 }
 nav {
-  background-color: #28a745 !important;
+  background-color: #1c1c1c !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav button {
+  background-color: white !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+nav a {
+  color: #ffffff !important;
 }/*# sourceMappingURL=main.css.map */
