@@ -6,7 +6,9 @@ import Slider from "./Intro";
 function Home() {
   return (
     <>
-      <Heading>My journey so far</Heading>
+      <Heading>Welcome</Heading>
+      <p className="text-center">Who likes reading a bunch of text right? See my journey in images below instead:).</p>
+
       <Slider />
       <Cards />
     </>

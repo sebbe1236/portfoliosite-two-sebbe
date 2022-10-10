@@ -68,6 +68,7 @@ function Contact() {
           </label>
           <textarea
             type="text"
+            placeholder="type it in here"
             {...register("description", { required: true })}
             className="form-control"
             id="exampleFormControlTextarea1"
@@ -82,7 +83,7 @@ function Contact() {
         </div>
       </form>
       <div>{error && <p>Something went wrong. </p>}</div>
-      <div>{validSubmit && <p>Form was succesfully sent.</p>}</div>
+      <div>{validSubmit && <p>Form is submitted.</p>}</div>
     </>
   );
 }

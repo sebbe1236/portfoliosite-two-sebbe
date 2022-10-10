@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
 import Card from "react-bootstrap/Card";
 import examsiteImage from "../../images/exam2image.png";
 import semesterprojectImage from "../../images/semesterproject.png";
 import jsCaImage from "../../images/jsfwCA.png";
-import { Container, Row, Col, CardGroup } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Cards() {
   return (
@@ -21,6 +21,13 @@ function Cards() {
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
+              <a
+                href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-sebbe1236"
+                target="_blank"
+                rel="noreferrer"
+              >
+                React framework CA repo
+              </a>
             </Card>
           </Col>
           <Col>
@@ -32,6 +39,13 @@ function Cards() {
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
+              <a
+                href="https://github.com/sebbe1236/Sebastian-Kv-lsvoll-semester-project-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Semester project 2 repo
+              </a>
             </Card>
           </Col>
           <Col>
@@ -43,6 +57,13 @@ function Cards() {
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
+              <a
+                href="https://github.com/Noroff-FEU-Assignments/project-exam-2-sebbe1236"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Semester project 2 repo
+              </a>
             </Card>
           </Col>
         </Row>
