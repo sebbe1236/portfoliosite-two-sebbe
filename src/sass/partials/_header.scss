@@ -10,10 +10,8 @@ nav button {
   background-color: white !important;
 }
 
-.nav-link {
-  color: $header-links !important;
-}
-
 nav a {
   color: $header-links !important;
+  padding: 10px;
+  text-decoration: none;
 }

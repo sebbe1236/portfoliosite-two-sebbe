@@ -4,4 +4,11 @@ footer {
   margin-top: auto;
   padding: 30px;
   background-color: $footer-color;
+  text-align: center;
+}
+
+footer a {
+  color: $header-links !important;
+  text-decoration: none;
+  font-weight: bold;
 }

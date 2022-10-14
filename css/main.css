@@ -41,6 +41,13 @@ footer {
   margin-top: auto;
   padding: 30px;
   background-color: #312f2f;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .cards_container img {
@@ -104,10 +111,8 @@ nav button {
   background-color: white !important;
 }
 
-.nav-link {
-  color: #ffffff !important;
-}
-
 nav a {
   color: #ffffff !important;
+  padding: 10px;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

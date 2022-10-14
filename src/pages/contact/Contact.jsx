@@ -83,7 +83,7 @@ function Contact() {
         </div>
       </form>
       <div>{error && <p>Something went wrong. </p>}</div>
-      <div>{validSubmit && <p>Form is submitted.</p>}</div>
+      <div>{validSubmit && <p className="text-center p-3">Form is submitted.</p>}</div>
     </>
   );
 }

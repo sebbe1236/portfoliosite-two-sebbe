@@ -7,7 +7,9 @@ function Home() {
   return (
     <>
       <Heading>Welcome</Heading>
-      <p className="text-center">Who likes reading a bunch of text right? See my journey in images below instead:).</p>
+      <h6 className="text-center p-3">
+        Who likes reading a bunch of text right? See my journey in images below instead!.
+      </h6>
 
       <Slider />
       <Cards />
