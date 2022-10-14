@@ -20,9 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone repo: https://github.com/sebbe1236/portfoliosite-two-sebbe.git
 
-2. run npm install
-
-## Contact
+2. Able run commands listed below
 
 ## Running
 
@@ -52,4 +50,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 ## Contact
+www.linkedin.com/in/sebastian-kvålsvoll-479839151
 
